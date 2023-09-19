@@ -1,7 +1,5 @@
 
-# Modelling a Data Warehouse
-
-**Project Description**: # Modelling a Data Warehouse
+# Modeling a Data Warehouse
 
 ## Project Description
 
