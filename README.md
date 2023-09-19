@@ -51,10 +51,10 @@ Harnessing the capabilities of data warehousing and Online Analytical Processes 
 
 1. **Database Setup**
    - Start XAMPP and import the database from the "Data/soccer.zip" file. This will create the "soccer" database.
-   - You can follow the instructions in [this guide](https://stackoverflow.com/questions/44366004/fatal-error-out-of-memory-allocated-761004032-tried-to-allocate-755370216-by) to import a large database file into XAMPP's MySQL.
+   - You can follow the instructions in [this guide](https://stackoverflow.com/questions/44366004/fatal-error-out-of-memory-allocated-761004032-tried-to-allocate-755370216-by) to import a large database file into XAMPP's MariaDB.
 
 2. **Data Warehouse Schema Initialization**
-   -  To initialize the data warehouse schema,run all the scripts located in the "Transformation/Scripts" folder in the order of their filenames 
+   -  To initialize the data warehouse schema, run all the scripts located in the "Transformation/Scripts" folder in the order of their filenames 
 
 3. **Pentaho Data Integration Setup**
    - Download and install Pentaho Data Integration.
@@ -92,13 +92,13 @@ The ETL (Extract, Transform, Load) process in this project involves several esse
    - In the extraction phase, data is sourced from the "soccer" database.
 
 **2. Transformation (T):**
-   - In the transformation phase, data undergoes several operations to prepare it for loading into the data warehouse. These operations included:
+   - In the transformation phase, data underwent several operations to prepare it for loading into the data warehouse. These operations included:
 
      - **Data Cleaning**: This step involved handling missing values, removing duplicates, and addressing outliers. 
      
-     - **Data Integration**: Data from multiple tables or sources were integrated or joined to create a unified dataset. This could included merging data related to matches, teams, and seasons.
+     - **Data Integration**: Data from multiple tables or sources were integrated or joined to create a unified dataset. This included merging data related to matches, teams, and seasons.
      
-     - **Data Conversion**: e.g., changing date formats, this step ensured that the data is in the correct format.
+     - **Data Conversion**: e.g., changing date formats, this step ensured the data is in the correct format.
      
      - **Aggregation**: Aggregating data was necessary to create summary statistics or perform calculations, such as aggregating match statistics over multiple seasons.
      
@@ -106,7 +106,7 @@ The ETL (Extract, Transform, Load) process in this project involves several esse
 **3. Load (L):**
    - In the load phase, the transformed and prepared data was loaded into the data warehouse. This data warehouse was implemented using Pentaho Data Integration.
 
-,This are the  specific steps mentioned in the project:
+, These are the  specific steps mentioned in the project:
 
 1. **Run XAMPP and import database from Data/soccer.zip. This will create soccer database.**
    
