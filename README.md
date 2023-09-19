@@ -39,7 +39,6 @@ Through these steps, we facilitate data accessibility and analysis, making it ea
 ## Getting Started
 
 Harnessing the capabilities of data warehousing and Online Analytical Processes (OLAP), offering an efficient and streamlined approach to dissecting the intricacies of soccer.
-1.1 Background
 
 ## Installations
 - MariaDB
